@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // { "name": "Debug: pipeline_debug.py (full flow)", "type": "debugpy", "request": "launch",
+    //   "program": "${workspaceFolder}/pipeline_debug.py", "console": "integratedTerminal",
+    //   "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: FastAPI (uvicorn, no reload)", "type": "debugpy", "request": "launch",
+      "module": "uvicorn", "args": ["app.main:app", "--port", "8000"],
+      "console": "integratedTerminal", "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: train_scorer.py", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/train_scorer.py", "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: ml_predict.py", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/ml_predict.py", "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: Streamlit applicant", "type": "debugpy", "request": "launch",
+      "module": "streamlit", "args": ["run", "app_applicant.py"],
+      "console": "integratedTerminal", "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: Streamlit interviewer", "type": "debugpy", "request": "launch",
+      "module": "streamlit", "args": ["run", "app_interviewer.py", "--server.port", "8502"],
+      "console": "integratedTerminal", "cwd": "${workspaceFolder}", "justMyCode": false },
+    { "name": "Debug: current file", "type": "debugpy", "request": "launch",
+      "program": "${file}", "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}", "justMyCode": false }
+  ],
+  "compounds": [
+    { "name": "Debug: ALL (API + both UIs)",
+      "configurations": [
+        "Debug: FastAPI (uvicorn, no reload)",
+        "Debug: Streamlit applicant",
+        "Debug: Streamlit interviewer"
+      ],
+      "stopAll": true }
+  ]
+}

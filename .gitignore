@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# App data & generated artifacts
+*.db
+chroma_policies/
+*.pkl
+
+# Large / optional ML dataset (see README — not needed to run the app)
+resume_dataset_200k_enhanced.csv
+
+# OS / editor
+.DS_Store
+.idea/
+*.swp

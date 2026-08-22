@@ -1,0 +1,6 @@
+Jane Doe
+Senior Software Engineer
+6 years building Python backends. FastAPI microservices, PostgreSQL, REST APIs on AWS.
+Skills: Python, FastAPI, SQL, PostgreSQL, REST, AWS, Docker, Git, scikit-learn, LangChain.
+Education: B.S. Computer Science, State University, 2018.
+Phone: 555-1234

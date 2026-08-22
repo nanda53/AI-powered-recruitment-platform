@@ -1,0 +1,26 @@
+Jane Okafor
+Email: jane.okafor@example.com · Phone: +1 (415) 555-0182 · Location: San Francisco, CA
+LinkedIn: linkedin.com/in/jane-okafor
+
+Summary
+Backend engineer with 6 years building scalable Python APIs and distributed services on AWS.
+
+Skills
+Python, FastAPI, Django, SQL, PostgreSQL, REST API design, AWS (EC2, Lambda, RDS, S3),
+Docker, Redis, Git, CI/CD, microservices
+
+Experience
+Senior Backend Engineer — Stripe, San Francisco (Mar 2021 – Present)
+
+Built FastAPI microservices handling 3M requests/day with PostgreSQL and Redis.
+Designed REST APIs and async workers; cut p95 latency 40% via query optimization.
+Deployed on AWS (Lambda, RDS, S3) with automated CI/CD pipelines.
+Backend Engineer — Shopify, Ottawa (Jun 2018 – Feb 2021)
+
+Developed Django + PostgreSQL services for the merchant billing platform.
+Owned REST API versioning and backwards-compatibility for 200+ endpoints.
+Education
+B.S. Computer Science — University of Waterloo, 2018
+
+Certifications
+AWS Certified Developer – Associate

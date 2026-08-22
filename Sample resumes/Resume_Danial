@@ -1,0 +1,25 @@
+Daniel Schmidt
+Email: daniel.schmidt@example.com · Phone: +49 30 5557 2210 · Location: Berlin, Germany
+LinkedIn: linkedin.com/in/daniel-schmidt
+
+Summary
+DevOps engineer with 7 years automating infrastructure and CI/CD for cloud-native platforms.
+
+Skills
+Docker, Kubernetes, AWS (EKS, EC2, IAM, CloudFormation), Terraform, CI/CD, Jenkins,
+GitHub Actions, Ansible, Prometheus, Grafana, Bash, Python, Linux
+
+Experience
+Senior DevOps Engineer — Zalando, Berlin (Apr 2019 – Present)
+
+Ran production Kubernetes (EKS) clusters for 150+ microservices.
+Built CI/CD pipelines with GitHub Actions and Jenkins; cut deploy time from 40 to 8 min.
+Managed AWS infrastructure as code with Terraform and CloudFormation.
+DevOps Engineer — SoundCloud, Berlin (Feb 2016 – Mar 2019)
+
+Containerized legacy services with Docker; set up Prometheus + Grafana monitoring.
+Education
+B.S. Information Technology — Technical University of Munich, 2015
+
+Certifications
+Certified Kubernetes Administrator (CKA); AWS Certified Solutions Architect – Associate
