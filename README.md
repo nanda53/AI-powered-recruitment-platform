@@ -213,3 +213,7 @@ python ml_predict.py      # scores sample rows with the saved model
   (FastAPI, both Streamlit apps, the ML scripts) and a compound "run all".
 - **Tech stack** — FastAPI · SQLAlchemy · LangChain · LangGraph · ChromaDB ·
   Pydantic · Streamlit · XGBoost.
+
+## License
+
+Released under the [MIT License](LICENSE).
